@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header-bg {
+    background-image: url(img/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 670px;
+
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgba(27, 177, 27, 0.863);
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.carousel-item {
+    color: white;
+}
+
+.col-md-7 p {
+    color: gray;
+}
+
+.services {
+    border: 1px solid rgba(128, 128, 128, 0.404);
+}
+
+.services:hover {
+    box-shadow: 5px 5px 10px gray;
+    transition: .5s;
+}
+
+.service-p {
+    color: gray;
+    font-size: 15px;
+}
+
+.service-bottom {
+    background-image: url(img/service.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 715px;
+}
+
+
+
+.card-two img {
+    height: 240px;
+    width: 220px;
+}
+
+.card-two p {
+    color: white;
+
+}
+
+.card-inner {
+    border: 1px solid white;
+}
+
+.card-two-footer p {
+    color: white;
+}
+
+.card-two-footer button {
+    background: none;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 10px;
+}
+
+.card-two-footer button:hover {
+    background: #00e0d17e;
+    transition: .5s;
+}
